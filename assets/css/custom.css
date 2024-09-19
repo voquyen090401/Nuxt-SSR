@@ -1,0 +1,37 @@
+html::-webkit-scrollbar {
+	width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: #71c499;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background: #29935c;
+}
+
+figure {
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	width: 100% !important;
+}
+
+figure img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+	figure {
+		width: 70% !important;
+	}
+}

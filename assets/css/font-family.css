@@ -1,0 +1,65 @@
+/* Roboto */
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 100;
+	src: local('Roboto'),
+		url(@/assets/fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 300;
+	src: local('Roboto'),
+		url(@/assets/fonts/Roboto/Roboto-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 500;
+	src: local('Roboto'),
+		url(@/assets/fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: 700;
+	src: local('Roboto'),
+		url(@/assets/fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+}
+
+/* Inter */
+@font-face {
+	font-family: 'Inter';
+	font-weight: 100;
+	src: local('Inter'),
+		url(@/assets/fonts/Inter/static/Inter-Thin.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 300;
+	src: local('Inter'),
+		url(@/assets/fonts/Inter/static/Inter-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 400;
+	src: local('Inter'),
+		url(@/assets/fonts/Inter/static/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 500;
+	src: local('Inter'),
+		url(@/assets/fonts/Inter/static/Inter-Medium.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 700;
+	src: local('Inter'),
+		url(@/assets/fonts/Inter/static/Inter-Bold.ttf) format('truetype');
+}
